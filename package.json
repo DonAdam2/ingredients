@@ -1,7 +1,7 @@
 {
-	"name": "webpack-react-boilerplate",
+	"name": "ingredients",
 	"version": "1.0.0",
-	"description": "Webpack react boilerplate",
+	"description": "React app which shows how to use react hook",
 	"main": "index.js",
 	"browserslist": [
 		"ie >= 11",

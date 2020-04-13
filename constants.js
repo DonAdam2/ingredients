@@ -6,7 +6,7 @@ module.exports = {
 	jsSubDirectory: 'js/',
 	cssSubDirectory: 'css/',
 	metaInfo: {
-		title: 'Adam Morsi',
+		title: 'Ingredients',
 		description: 'description',
 		url: 'https://example.com/',
 		keywords: 'add you keywords',
