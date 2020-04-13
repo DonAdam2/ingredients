@@ -1,8 +1,8 @@
-import React, { memo } from 'react';
+import React, { memo, Fragment } from 'react';
 
 const ErrorModal = memo((props) => {
 	return (
-		<React.Fragment>
+		<Fragment>
 			<div className="backdrop" onClick={props.onClose} />
 			<div className="error-modal">
 				<h2>An Error Occurred!</h2>
@@ -13,7 +13,7 @@ const ErrorModal = memo((props) => {
 					</button>
 				</div>
 			</div>
-		</React.Fragment>
+		</Fragment>
 	);
 });
 
