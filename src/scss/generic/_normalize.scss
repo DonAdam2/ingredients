@@ -48,6 +48,12 @@ body {
 	margin: 0;
 }
 
+html,
+body,
+#root {
+	height: 100%;
+}
+
 /**
  * Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
  */
