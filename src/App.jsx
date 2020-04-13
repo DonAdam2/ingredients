@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader/root';
+//components
+import IngredientsList from './js/components/IngredientsComponents/IngredientsList';
 
-class App extends Component {
-	render() {
-		return <div>app</div>;
-	}
-}
+const App = (props) => {
+	return <IngredientsList />;
+};
 
 export default hot(App);
